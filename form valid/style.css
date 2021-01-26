@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 24px;
+    font-family: arial black;
+    background: rgb(8, 60, 182);
+    border-bottom: 3px black solid;
+    box-shadow: rgb(22, 21, 21,0.76) 0px 4px 8px 4px;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(245, 245, 245);
+}
+
+main{
+    text-align: center;
+    align-items: center;
+    justify-content: center;  
+}
+
+form{
+    width: 440px;
+    height: 580px;
+    font-size: 30px;
+    box-shadow: rgb(22, 21, 21,0.76) 0px 1px 5px 1px;
+    background-color: #fdfdfd;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 8.5px;
+    font-family: arial;
+}
+
+input{
+    width: 350px;
+    height: 33px;
+    border-radius: 10.5px;
+    font-family: tahoma black;
+    color: rgb(2, 1, 1);
+    border: 2px solid grey;
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+    background-color: rgb(25, 108, 185);
+    color: white;
+    width: 280px;
+    height: 50px;
+    border-radius: 14px;
+    margin-top: 5px;
+    border: 2px solid rgb(83, 83, 83);
+    font-size: 19px;
+    font-family: tahoma;
+    box-shadow: rgba(54, 54, 54, 0.76) 0px 0.8px 2px 0.7px;
+    outline: none;
+}
+button:hover{
+    background-color: rgb(72, 124, 173);
+}
+
+label{
+    font-size: 21px;
+    font-family: arial ;
+    font-weight: lighter;
+    color: rgb(141, 141, 141);
+}
+
+#email{
+    margin-top: 7%;
+}
+#password{
+    margin-top: 7%; 
+}
+#passwordvalid{
+    margin-top: 7%;
+}
+
+small{
+    position: absolute;
+    color: #DA2802 ;
+    display: flex;
+    margin-left: 42px;
+    font-size: 20px;
+    visibility: visible;
+    padding: -2px;
+}
+

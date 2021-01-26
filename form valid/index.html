@@ -1,0 +1,51 @@
+<!Doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Form Valid</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>Register</header>
+    <main>
+        <form id="form">Register
+            <br>
+            <br>
+            <div id="username">
+            <label name="username"  style="margin-right: 260px;">Username</label>
+            <br>
+            <input type="username" name="username" maxlength="12" minlength="5" id="userN">
+            <small></small>
+            </div>
+            <div id="email">
+            <label name="email" style="margin-right: 300px;">Email</label>
+            <br>
+            <input type="email" name="email" id="emaill">
+            <small></small>
+            </div>
+            <div id="password">
+            <label name="password"  style="margin-right: 260px;">Password</label>
+            <br>
+            <input type="password" name="password" id="passwordd" minlength="8">
+            <small></small>
+            </div>
+            <div id="passwordvalid">
+            <label  style="margin-right: 200px;" name="passwordvalid">Password Check</label>
+            <br>
+            <input type="password" name="passwordvalid" id="passworddvalid" minlength="8">
+            <small></small>
+            </div>
+            <br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </main>
+  <script src="main.js" defer></script>
+</body>
+</html>
